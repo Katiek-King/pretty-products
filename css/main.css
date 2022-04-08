@@ -1,0 +1,52 @@
+html {
+box-sizing: border-box;
+font-family: Oswald, sans-serif;
+line-height: 1.5;
+background-color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0.5em;
+}
+
+section {
+  display: grid;
+  margin: 0;
+  padding: 1.5em;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+article {
+  background-color: #000;
+  border: 3px solid #6f00e7
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  margin: 0 0 1.5rem;
+}
+
+p {
+  margin: auto;
+}
+
+section a {
+  font-size: 1.4rem;
+  background-color: #6f00e7;
+  color: #000;
+  text-decoration: none;
+  margin: 1.5rem;
+  padding: 0.7em;
+  text-align: left;
+  corner-radii: 6px;
+}
