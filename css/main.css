@@ -1,12 +1,18 @@
 html {
   box-sizing: border-box;
-  font-family: 'Karma', sans-serif;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #f2f2f2;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 body {
@@ -29,7 +35,6 @@ article {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 ul {
@@ -41,7 +46,10 @@ ul {
 }
 
 h2 {
-  margin: 0;
+  font-family: Oswald, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #6f00e7;
 }
 
 img {
